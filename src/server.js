@@ -1,3 +1,14 @@
+
+
+// 📌 Responsabilidade: configuração global
+// db.js
+// Abre conexão com o banco
+// Exporta o Sequelize (ou sqlite)
+// Nunca contém regra de negócio
+
+// 👉 Regra:
+// Config não “pensa”, só configura.
+
 /************************************************
  * IMPORTAÇÕES
  ************************************************/
